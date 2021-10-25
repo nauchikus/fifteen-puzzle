@@ -29,11 +29,6 @@ jobs:
             ${{ runner.os }}-node-
 
       - name: Build app
-        env:
-          GITHUB_TOKEN: ${{ secrets.CUSTOM_GITHUB_TOKEN }}
-          GATSBY_REPOSITORY_OWNER: nauchikus
-          GATSBY_REPOSITORY_NAME: typescript-definitive-guide
-          GATSBY_REPOSITORY_BRANCH: master
         working-directory: ./
         run: |
           npm ci
