@@ -1,0 +1,1 @@
+export const typeOf = <T> ( type: T ) => ( event: { type: T } ) => event.type === type;

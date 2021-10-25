@@ -1,0 +1,1 @@
+export const BG_COLOR = 0x061930
