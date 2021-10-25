@@ -1,8 +1,7 @@
 # The Fifteen Puzzle (_webgl game_)
 
-![game](./frame_generic_dark.png)
+![game](./cover.png)
 
-
-Uses techs
+***Uses techs***
 - pixi.js
 - webpack
